@@ -1,36 +1,37 @@
-# tictactoe
+# Tic-tac-toe in Clojure
 
-FIXME: description
+A (very) rudimentary version of tic-tac-toe, written in Clojure.
 
-## Installation
+I wrote this as my first-ever learning project to become familiar with Clojure,
+in order to practice some of the concepts covered in the wonderful [Clojure for
+the Brave and True](https://www.braveclojure.com/). 
 
-Download from http://example.com/FIXME.
+Expect bugs, anti-patterns (recursion still hurts my head often), etc. I think
+it'll be fun to re-implement the game of tic-tac-toe after a year or so of
+casual Clojure use to compare differences in implementation.
 
 ## Usage
+Assuming you have `clojure` and `leiningen` installed, simply clone the
+repository and execute:
 
-FIXME: explanation
+``` sh
+lein run
+```
 
-    $ java -jar tictactoe-0.1.0-standalone.jar [args]
+Or, build the project with:
 
-## Options
+``` sh
+lein uberjar
+```
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+and execute with:
+``` sh
+java -jar target/uberjar/tictactoe-0.1.0-standalone.jar
+```
 
 ## License
 
-Copyright © 2021 FIXME
+Copyright © 2021 Michael Struwig.
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at

@@ -29,6 +29,23 @@ and execute with:
 java -jar target/uberjar/tictactoe-0.1.0-standalone.jar
 ```
 
+You'll be presented with a tic-tac-toe board, and can proceed to play by
+entering indexes for each player: 
+
+``` sh
+1 | 2 | 3
+--+---+--
+4 | 5 | 6
+--+---+--
+7 | 8 | 9
+
+X 's move
+Which index?
+
+```
+
+Have fun.
+
 ## License
 
 Copyright © 2021 Michael Struwig.
